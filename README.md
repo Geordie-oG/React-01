@@ -30,14 +30,13 @@ configuration.
 
 ## Deploy to GitHub Pages
 
-1. Create a GitHub repository named `react-component`.
-2. Push this project to its `main` branch.
-3. In the repository, open **Settings → Pages** and select **GitHub Actions** as
+1. Push this project to the `main` branch.
+2. In the repository, open **Settings → Pages** and select **GitHub Actions** as
    the source.
-4. Open the **Actions** tab and wait for **Deploy to GitHub Pages** to finish.
+3. Open the **Actions** tab and wait for **Deploy to GitHub Pages** to finish.
 
 Your page will be available at:
 
 ```text
-https://YOUR-USERNAME.github.io/react-component/
+https://geordie-og.github.io/React-01/
 ```

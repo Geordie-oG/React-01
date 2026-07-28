@@ -1,7 +1,7 @@
-# React-01: React Component Routes
+# User Registration
 
-A small React application with three routes that all render the same `PageCard`
-component. The component chooses different content based on the active route.
+A responsive React registration form with controlled inputs, department-based
+job positions, a submitted-data summary, and complete reset behavior.
 
 ## Run locally
 
@@ -12,12 +12,6 @@ npm run dev
 
 Then open the local URL printed by Vite.
 
-## Routes
-
-- `#/greetings`
-- `#/profiles`
-- `#/my-hobbies`
-
 ## Production build
 
 ```bash
@@ -25,18 +19,10 @@ npm run build
 ```
 
 The generated `dist` directory can be deployed to GitHub Pages or another static
-hosting service. Hash routing means all three routes work without special server
-configuration.
+hosting service.
 
-## Deploy to GitHub Pages
+## Live site
 
-1. Push this project to the `main` branch.
-2. In the repository, open **Settings → Pages** and select **GitHub Actions** as
-   the source.
-3. Open the **Actions** tab and wait for **Deploy to GitHub Pages** to finish.
+The `main` branch is automatically built and deployed by GitHub Actions:
 
-Your page will be available at:
-
-```text
 https://geordie-og.github.io/React-01/
-```
